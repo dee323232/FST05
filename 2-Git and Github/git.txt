@@ -1,0 +1,55 @@
+- Check version of Git 
+git --version
+
+- Configure username
+git config user.name "your username"
+
+- Configure email
+git config user.email "your email"
+
+- Check your username in Git
+git config user.name
+
+- Check your email in Git
+git config user.email
+
+- Initialize a Repository
+git init
+
+- Check Status of Repository
+git status
+
+- Add a single file/directory to staging area
+git add [file_name/folder_name]
+
+- Add all to staging area
+git add .
+
+Legends/Indicators
+U - Untracked
+A - Added
+M - Modified
+
+- Commit files into repository
+git commit -m "description of your changes"
+- Check Commit History in Git
+git log
+
+- Check Commit History in Git (Shortened/Summarized)
+git log --oneline
+
+
+
+
+
+
+
+
+- Create a branch
+git branch [branch_name]
+
+- List all existing branches
+git branch -a
+
+- Switch/move to a different branch
+git checkout [branch_name]
